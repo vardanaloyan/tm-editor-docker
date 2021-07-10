@@ -27,4 +27,12 @@ docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/opt/data -e DISP
 
 Note, it will also mount current directory (`pwd`) to `/opt/data`.
 
+You will be prompt to console, where you can type `tm-editor`
+
+```
+root@c50ac48f7eb1:/# tm-editor 
+```
+
+![Alt text](/screenshot.png?raw=true "tm-editor screenshot")
+
 [1] [cern dockerhub account](https://hub.docker.com/r/rootproject/root)
