@@ -1,5 +1,5 @@
 # tm-editor-docker
-First of all, you need to pull the image
+First of all, you need to pull the image (https://hub.docker.com/r/aloyan/tm-editor)
 
 ```
 docker pull  aloyan/tm-editor:0.12.1
