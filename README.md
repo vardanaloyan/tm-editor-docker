@@ -35,4 +35,17 @@ root@c50ac48f7eb1:/# tm-editor
 
 ![Alt text](/screenshot.png?raw=true "tm-editor screenshot")
 
+In [run_tm.sh](run_tm.sh) file you can find all commands in one shell script.
+Make `run_th.sh` file executable by typing
+
+```
+chmod +x run_tm.sh
+```
+
+Run the file
+
+```
+./run_tm.sh
+```
+
 [1] [cern dockerhub account](https://hub.docker.com/r/rootproject/root)
