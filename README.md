@@ -2,7 +2,7 @@
 First of all, you need to pull the image (https://hub.docker.com/r/aloyan/tm-editor)
 
 ```
-docker pull  aloyan/tm-editor:0.12.1
+docker pull  aloyan/tm-editor:0.13.0
 ```
 
 [1] To use graphics on OSX, make sure XQuarz is installed. After installing, open XQuartz, and go to XQuartz, Preferences, select the Security tab, and tick the box "Allow connections from network clients". Then exit XQuarz. Afterwards, open a terminal and run the following commands:

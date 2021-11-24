@@ -23,5 +23,5 @@ RUN apt install -y python3-pyqt5
 
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 
-RUN python3 -m pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.12.1
+RUN python3 -m pip install git+https://github.com/cms-l1-globaltrigger/tm-editor.git@0.13.0
 

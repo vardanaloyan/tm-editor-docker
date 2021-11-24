@@ -1,0 +1,10 @@
+# Cheatsheet for deploying new release
+
+## Build and tag
+docker build . -t aloyan/tm-editor:0.13.0
+
+## Login with username and password into your hub.docker.com account
+docker login
+
+## Push
+docker push aloyan/tm-editor:0.13.0
