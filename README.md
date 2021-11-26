@@ -22,12 +22,12 @@ This will start XQuartz and whitelist your local IP address.
 Finally
 
 ```
-docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/opt/data -e DISPLAY=$ip:0 aloyan/tm-editor:0.12.1
+docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd)/data:/data -w /data -e DISPLAY=$ip:0 aloyan/tm-editor:0.13.0
 ```
 
-Note, it will also mount current directory (`pwd`) to `/opt/data`.
+Note, it will also mount current directory (`pwd`/data) to `/opt/data`.
 
-You will be prompt to console, where you can type `tm-editor`
+You will be prompt to console, where you can type `tm-editor <args>`
 
 ```
 root@c50ac48f7eb1:/# tm-editor 
