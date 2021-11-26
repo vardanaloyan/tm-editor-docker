@@ -5,5 +5,5 @@ ip=$(ifconfig en0 | grep inet | awk '$1=="inet" {print $2}')
 xhost + $ip
 
 # Run the docker image
-docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd):/opt/data -e DISPLAY=$ip:0 aloyan/tm-editor:0.13.0
+docker run --rm -it -v /tmp/.X11-unix:/tmp/.X11-unix -v $(pwd)/data:/data -w /data -e DISPLAY=$ip:0 aloyan/tm-editor:0.13.0
  
